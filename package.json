@@ -1,0 +1,19 @@
+{
+  "name": "exercicios-camadas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3 exercicios sobre camadas (model / controller / service / route) em Node + Express, com gabarito comentado",
+  "scripts": {
+    "start": "node exercicio-1-facil/app.js",
+    "start:1": "node exercicio-1-facil/app.js",
+    "start:2": "node exercicio-2-medio/app.js",
+    "start:3": "node exercicio-3-dificil/app.js",
+    "test:1": "node --test exercicio-1-facil/test/products.test.js",
+    "test:2": "node --test exercicio-2-medio/test/users.test.js",
+    "test:3": "node --test exercicio-3-dificil/test/auth.test.js",
+    "test": "npm run test:1 && npm run test:2 && npm run test:3"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
